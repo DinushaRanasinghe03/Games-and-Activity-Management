@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: "Poppins", sans-serif;*/
+/*font-family: "Playfair Display", serif;*/
+
+/* //navbar css*/
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  /* text-transform: lowercase; */
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px --6px gray;
+  border-bottom: solid gray !important;
+  background-color: #52589e !important;
+  
+}
+
+.navbar .nav-link:active,
+.navbar .nav-link:visited {
+  color: white; /* Set font color to white for active and visited links */
+}
+
+
+
+.navbar .navbar-brand {
+  color: white; /* Set font color to white */
+}
+
+.navbar .nav-link {
+  color: white; /* Set font color to white */
+}
+
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.active{
+  border-bottom: 2px solid white;
+}
+
+
+
+/*
+==========page not found css==========
+*/
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color:black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+/*
+==========footer==============
+*/
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #26294e !important;
+  background: -webkit-linear-gradient(to right, #937bd3, #380463);
+  background: linear-gradient(to right, #937bd3, #380463);
+}
+
+
+.footer a{
+  text-decoration: none;
+  color: #949CE3;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: #949CE3 ;
+  border-bottom: 1px solid #949CE3;
+}
+
+/* ================== */
+.movie-link {
+  text-decoration: none !important;
+  color: black !important
+}
+
+
+/*===========================================
+==========games and activities-link=======*/
+.gamesandactivities-link{
+  text-decoration: none !important;
+  color: black !important;
+}
